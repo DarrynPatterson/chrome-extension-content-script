@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Basic Content Script",
+  "version": "1",
+  "content_scripts": [
+    {
+      "matches": ["*://*.github.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
